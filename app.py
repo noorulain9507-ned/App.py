@@ -53,6 +53,14 @@ st.divider()
 st.divider()
 st.sidebar.title("Menu")
 st.sidebar.info("Upload data and generate reports")
+with st.sidebar:
+    st.header("📘 App Guide")
+    st.write("""
+    1. Upload a CSV file  
+    2. Preview your data  
+    3. Click buttons to generate insights  
+    """)
+    st.info("This tool is for educational purposes only.")
 
 
 # ---------------- FILE UPLOADER ----------------
