@@ -5,7 +5,7 @@ import pandas as pd
 st.set_page_config(
     page_title="AI Workflow & Report Generator",
     layout="centered"
-)    how to improve this code further color or graphics 
+)   
 
 # ---------------- TITLE ----------------
 st.title("📊 AI Workflow & Report Generator")
