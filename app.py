@@ -1,5 +1,43 @@
 import streamlit as st
 import pandas as pd
+st.markdown("""
+<style>
+/* Main background */
+.stApp {
+    background-color: #f7f9fc;
+}
+
+/* Title styling */
+h1 {
+    color: #1f4ed8;
+    text-align: center;
+}
+
+/* Subheaders */
+h2, h3 {
+    color: #111827;
+}
+
+/* Buttons */
+div.stButton > button {
+    background-color: #2563eb;
+    color: white;
+    border-radius: 8px;
+    height: 3em;
+    width: 100%;
+    font-size: 16px;
+}
+
+div.stButton > button:hover {
+    background-color: #1d4ed8;
+}
+
+/* Info boxes */
+.stAlert {
+    border-radius: 8px;
+}
+</style>
+""", unsafe_allow_html=True)
 
 # ---------------- PAGE CONFIG ----------------
 st.set_page_config(
